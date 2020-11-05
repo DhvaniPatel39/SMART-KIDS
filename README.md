@@ -1,2 +1,2 @@
-# SMART KIDS
+# SmartKids
  

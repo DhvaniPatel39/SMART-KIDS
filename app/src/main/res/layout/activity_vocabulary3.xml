@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgoundvoca"
+    tools:context=".VocabularyActivity3">
+
+    <TextView
+        android:id="@+id/quesnov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="8dp"
+        android:text="1/10"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/timerv"
+        android:layout_width="89dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/round_corner"
+        android:backgroundTint="#FFAB00"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="@color/item_toolbar"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Quesv"
+        android:layout_width="359dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="212dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/opt1v"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <Button
+        android:id="@+id/opt1v"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
+        android:background="@drawable/main_background"
+        android:gravity="start |center_vertical"
+        android:text="Option 1"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <Button
+        android:id="@+id/opt2v"
+        android:layout_width="253dp"
+        android:layout_height="66dp"
+        android:background="@drawable/main_background"
+        android:gravity="start |center_vertical"
+        android:text="Option 2"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt1v"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/opt3v"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
+        android:background="@drawable/main_background"
+        android:gravity="start |center_vertical"
+        android:text="Option 3"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="143dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/thinkinggif2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
