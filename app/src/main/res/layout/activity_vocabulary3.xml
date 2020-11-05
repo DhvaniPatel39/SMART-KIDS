@@ -54,8 +54,8 @@
 
     <Button
         android:id="@+id/opt1v"
-        android:layout_width="258dp"
-        android:layout_height="54dp"
+        android:layout_width="358dp"
+        android:layout_height="53dp"
         android:background="@drawable/main_background"
         android:gravity="start |center_vertical"
         android:text="Option 1"
@@ -71,8 +71,8 @@
 
     <Button
         android:id="@+id/opt2v"
-        android:layout_width="253dp"
-        android:layout_height="66dp"
+        android:layout_width="358dp"
+        android:layout_height="53dp"
         android:background="@drawable/main_background"
         android:gravity="start |center_vertical"
         android:text="Option 2"
@@ -81,15 +81,15 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/opt1v"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <Button
         android:id="@+id/opt3v"
-        android:layout_width="258dp"
-        android:layout_height="54dp"
+        android:layout_width="358dp"
+        android:layout_height="53dp"
         android:background="@drawable/main_background"
         android:gravity="start |center_vertical"
         android:text="Option 3"
@@ -101,7 +101,7 @@
         app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+        app:layout_constraintVertical_bias="0.769" />
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="143dp"

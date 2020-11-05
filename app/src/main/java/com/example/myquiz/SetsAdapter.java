@@ -30,7 +30,7 @@ public class SetsAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, final ViewGroup parent) {
+    public View getView(final int position, View convertView, final ViewGroup parent) {
         View view;
         if(convertView == null){
             view = LayoutInflater.from(parent.getContext()).inflate(R.layout.set_item_layout,parent,false);
@@ -42,8 +42,22 @@ public class SetsAdapter extends BaseAdapter {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(parent.getContext(), QuestionActivity.class);
-                parent.getContext().startActivity(intent);
+                switch(position){
+                    case 0:
+                        Intent intent = new Intent(parent.getContext(), QuestionActivity.class);
+                        parent.getContext().startActivity(intent);
+                        break;
+                    case 1:
+                        intent = new Intent(parent.getContext(), MediumQues1.class);
+                        parent.getContext().startActivity(intent);
+                        break;
+                    case 2:
+                        intent = new Intent(parent.getContext(), HardQues1.class);
+                        parent.getContext().startActivity(intent);
+                        break;
+                }
+                //  Intent intent = new Intent(parent.getContext(), ReadingActivity.class);
+                //  parent.getContext().startActivity(intent);
             }
         });
 

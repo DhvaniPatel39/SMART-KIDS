@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VocabularyActivity3"></activity>
+        <activity android:name=".HardQues1" />
+        <activity android:name=".MediumQues1" />
+        <activity android:name=".Vocabulary_Score" />
+        <activity android:name=".VocabularyActivity3" />
         <activity android:name=".VocabularyActivity2" />
         <activity android:name=".VocabularyActivity1" />
         <activity android:name=".HardActivity2" />

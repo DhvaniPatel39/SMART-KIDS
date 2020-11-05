@@ -19,7 +19,7 @@ public class VocabularyActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vocabulary1);
 
-        Toolbar toolbar = findViewById(R.id.set_toolbar);
+        Toolbar toolbar = findViewById(R.id.set_toolbar1);
         setSupportActionBar(toolbar);
 
         String title = getIntent().getStringExtra("CATEGORY");
