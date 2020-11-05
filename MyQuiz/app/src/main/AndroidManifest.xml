@@ -11,7 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ReadingActivity2"></activity>
+        <activity android:name=".VocabularyActivity3"></activity>
+        <activity android:name=".VocabularyActivity2" />
+        <activity android:name=".VocabularyActivity1" />
+        <activity android:name=".HardActivity2" />
+        <activity android:name=".HardActivity1" />
+        <activity android:name=".MediumActivity2" />
+        <activity android:name=".MediumActivity1" />
+        <activity android:name=".ReadingSets" />
+        <activity android:name=".ReadingActivity2" />
         <activity android:name=".ReadingActivity" />
         <activity android:name=".PaintActivity" />
         <activity android:name=".Memory_game" />
@@ -20,14 +28,14 @@
         <activity android:name=".ScoreActivity" />
         <activity android:name=".SetsActivity" />
         <activity android:name=".CategoryActivity" />
-        <activity android:name=".SplashActivity" >
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

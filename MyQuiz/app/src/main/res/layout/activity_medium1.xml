@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ReadingActivity"
+    tools:context=".MediumActivity1"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/easy_toolbar"
+        android:id="@+id/medium_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
@@ -17,7 +17,7 @@
         ></androidx.appcompat.widget.Toolbar>
 
     <ListView
-        android:id="@+id/list"
+        android:id="@+id/listmedium"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >

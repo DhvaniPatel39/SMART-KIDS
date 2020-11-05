@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.hazem.coloringforkids"
         applicationId "com.example.myquiz"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -35,5 +35,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.thebluealliance:spectrum:0.7.1'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
 
 }

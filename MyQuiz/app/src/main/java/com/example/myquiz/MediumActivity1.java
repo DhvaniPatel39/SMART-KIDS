@@ -12,28 +12,28 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-public class ReadingActivity extends AppCompatActivity {
+public class MediumActivity1 extends AppCompatActivity {
 
     ListView listView;
     String[] tstory , dstory;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reading);
+        setContentView(R.layout.activity_medium1);
 
-        Toolbar toolbar = findViewById(R.id.easy_toolbar);
+        Toolbar toolbar = findViewById(R.id.medium_toolbar);
         setSupportActionBar(toolbar);
 
-        String title = getIntent().getStringExtra("Reading");
+        String title = getIntent().getStringExtra("CATEGORY");
         getSupportActionBar().setTitle(title);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        tstory = getResources().getStringArray(R.array.title_story);
-        dstory = getResources().getStringArray(R.array.detailed_story);
+        tstory = getResources().getStringArray(R.array.title_story2);
+        dstory = getResources().getStringArray(R.array.detailed_story2);
 
 
-        listView = findViewById(R.id.list);
+        listView = findViewById(R.id.listmedium);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, tstory);
         listView.setAdapter(adapter);
 
@@ -41,7 +41,7 @@ public class ReadingActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String t = dstory[position];
-                Intent intent = new Intent(ReadingActivity.this, ReadingActivity2.class);
+                Intent intent = new Intent(MediumActivity1.this, MediumActivity2.class);
                 intent.putExtra("story", t);
                 startActivity(intent);
             }
@@ -50,7 +50,7 @@ public class ReadingActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId() == android.R.id.home){
-            ReadingActivity.this.finish();
+            MediumActivity1.this.finish();
         }
         return super.onOptionsItemSelected(item);
     }
