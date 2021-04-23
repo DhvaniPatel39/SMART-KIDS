@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">MyQuiz</string>
+    <string name="quizzz">Quizzz</string>
+    <string name="start">START</string>
+    <string name="todo">TODO</string>
+    <string name="text" translatable="false"></string>
+    <string name="_1">1</string>
+    <string name="sets">Sets</string>
+    <string name="hint">hint</string>
+    <string name="category">Category..</string>
+    <string name="choose_which_ever_activity_you_like">Choose which ever activity you like :)</string>
+    <string name="reading">Reading</string>
+
+    <string-array name="title_story">
+
+        <item>1. Alphabet Song</item>
+        <item>2. Digger Dog</item>
+        <item>3. Head And Shoulders</item>
+        <item>4. Do Your Ears Hang Low</item>
+        <item>5. Little Miss Muffet</item>
+        <item>6. The Itsy Bitsy Spider</item>
+
+    </string-array>
+
+    <string-array name="detailed_story">
+
+        <item>A, B, C, D, E, F, G,
+H, I, J, K, L, M, N, O, P,
+Q, R, S, T, U, V,
+Double-U, X, Y and  Z,
+Now I know my abc.
+Next time wont you sing with me...
+        </item>
+
+        <item>
+            I have a little doggy, his paws are really big
+And when he goes outside he likes to dig and dig and dig
+He drops his bone into the hole and covers it in a snap
+Puts one paw on the other then lies down to take a nap.
+        </item>
+
+        <item>
+            Head and shoulders, knees and toes,
+Head and shoulders, knees and toes.
+Eyes and ears and mouth and nose,
+Head and shoulders, knees and toes.
+        </item>
+
+        <item>
+            Do your ears hang low,
+Do they wobble to and fro
+Can you tie them in a knot,
+Can you tie them in a bow
+Can you throw them over your shoulder
+Like a continental soldier
+Do you ears hang low.
+        </item>
+
+        <item>
+            Little Miss Muffet,
+Sat on a tuffet,
+Eating her curds and whey
+When along came a spider
+Who sat down beside her
+And frightened Miss Muffet away.
+        </item>
+
+        <item>
+            The itsy bitsy spider went up the water spout
+Down came the rain and washed the spider out
+Out came the sun and it dried up all the rain
+Then the itsy bitsy spider went up the spout again.
+        </item>
+
+
+    </string-array>
+</resources>
